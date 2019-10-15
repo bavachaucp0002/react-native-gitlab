@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "importHelpers": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "module": "esnext",
+    "paths": {
+      "/*": ["./src/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "builds",
+    "coverage",
+    "cache",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
